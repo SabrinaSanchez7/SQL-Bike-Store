@@ -25,7 +25,7 @@ I laoded the CSVs into PostgreSQL. The `setup.sql` file create the tables and lo
 * Items sold per year
 * Products that were never ordered
 
-### **SQL commands I used**
+### **SQL commands I used (some)**
 * `SELECT`
 * `FROM`
 * `JOIN`
