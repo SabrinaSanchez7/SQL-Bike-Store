@@ -2,11 +2,10 @@
 Analyzing bike store sales data from Kaggle 
 
 ## **Bike Store SQL Project**
-This is my first complete SQL Project. I wanted to practice writing queries on a real dataset, so I used a bike store database from Kaggle that was good for SQL analyzation. 
+This is my first complete SQL Project. I wanted to practice writing queries on a real dataset, so I used a bike store database from Kaggle that was good for SQL analyzation. Considering this dataset includes multiple stores and items, I came up with two questions that SQL will help me answer:
 
-I decided to investigate 2 questions:
 1. **Which store sells the most?**
-2.  **Who are the top customers?**
+2.  **Which is the top-selling item?**
 
 ### **Dataset**
 Bike Store Relational Database from Kaggle:
@@ -40,5 +39,10 @@ I laoded the CSVs into PostgreSQL. The `setup.sql` file create the tables and lo
 * `AVG`
 * `ROUND`
 
+
+### **Results**
+* I discovered that Baldwin Bikes sells the most items.
+* The top-selling item is the Trek Slash 8 27.5. 
+
 ### **What I learned**
-This project helped me get comfortable using the most well known and used commands within SQL. After this project I feel more confident in being able to join tables, group data, and use the functions like SUM, COUNT, and AVG. 
+This project helped me get comfortable using the most well known and used commands within SQL. After this project I feel more confident in being able to join tables, group data, and use the functions like SUM, COUNT, and AVG. This project has also taught me how to extract useful insights using data to eventually be able to help businesses come up with a game plan to increase their revenue. 
