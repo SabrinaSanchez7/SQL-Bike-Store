@@ -1,6 +1,3 @@
--- Bike Store Sales Analysis
-
-
 -- Products with their brand and category
 SELECT p.product_name, b.brand_name, c.category_name, p.list_price
 FROM products p
